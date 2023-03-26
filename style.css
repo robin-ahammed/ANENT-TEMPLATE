@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	font-size: 19px;
+	line-height: 36px;
+	font-weight: 300;
+}
+.hero-section{
+	padding: 215px 0px;
+}
+.hero-text h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 300;
+	color:#fff;
+}
+.hero-text p{
+	font-size: 19px;
+	line-height: 36px;
+	font-weight: 300;
+	color:#fff;
+	max-width: 600px;
+	margin:0 auto;
+}
+.hero-icon a i{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	color:#fff;
+	margin-top: 10px;
+	padding: 0 5px;
+}
+.hero-button a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 300;
+	color:#fff;
+	background-color: transparent;
+	border:1px solid #ffffff;
+	padding: 8px 25px;
+}
+/*----------------------about-text-----------------*/
+
+.about-text h2{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight:700;
+	color:#000;
+	font-style: italic;
+}
+.about-button a{
+	border:1px solid #20c997;
+	color:black;
+	transition: 0.5s;
+	font-weight: 300;
+}
+.about-button :hover{
+	color:#20c997;
+}
+.about-icon i{
+	color:#00a3e2;
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 300;
+}
+
+/*counter-area*/
+.counter h2{
+    font-size: 56px;
+	line-height: 106px;
+	font-weight:700;
+	color:#fff;
+	font-style: italic;
+}
+.counter p{
+    font-size: 16px;
+	line-height: 20px;
+	font-weight:300;
+	color:#fff;
+	font-style: italic;
+}
+/*----------------what-card--------------*/
+.what-wrapper-section{
+	padding: 80px 0;
+}
+.what-wrapper-section h2{
+	font-size: 56px;
+	line-height: 106px;
+	font-weight:700;
+	color:#000;
+	font-style: italic;
+}
+.what-card{
+	box-shadow: 0 20px 70px -20px rgba(0, 0, 0, 0.34);
+	padding: 40px 0;
+	margin:60px 0;
+	border-bottom:2px solid red;
+	border-radius: 20px;
+	background-color: #f7f7f7;
+}
+.what-card-1{
+	border-bottom:2px solid #10fc46;
+}
+.what-card h2{
+	font-size: 25px;
+	line-height: 26px;
+	font-weight: 700;
+}
+.clip-path{
+    height: 120px;
+    width: 100px;
+    background-color: #10fc46;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    margin-bottom: -70px;
+    position: relative;
+    top: -100px;
+}
+.clip-path-1{
+	background-color:red; 
+}
